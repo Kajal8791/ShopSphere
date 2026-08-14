@@ -983,9 +983,7 @@ button {
     cursor: pointer;
 }
 
-/* ========================================
-   RESPONSIVE DESIGN
-======================================== */
+/*  RESPONSIVE DESIGN */
 
 @media (max-width: 900px) {
 
@@ -1124,4 +1122,51 @@ button {
     .contact-form textarea {
         font-size: 14px;
     }
+}
+
+.theme-button {
+    margin-top: 18px;
+
+    padding: 10px 18px;
+
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+
+    background-color: #ffffff;
+    color: #171717;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.theme-button:hover {
+    background-color: #171717;
+    color: #ffffff;
+
+    transform: translateY(-2px);
+}
+
+/* TASK 4 THEME INTRACTION */
+
+body.alternate-theme {
+    background-color: #fff3eb;
+}
+
+body.alternate-theme .shop-section {
+    background-color: #fff3eb;
+}
+
+body.alternate-theme .categories {
+    background-color: #fff3eb;
+}
+
+body.alternate-theme .contact-section {
+    background-color: #fff3eb;
 }
