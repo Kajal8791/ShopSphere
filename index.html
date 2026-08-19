@@ -5,434 +5,342 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ShopSphere - Modern E-Commerce</title>
 
-    <link rel="stylesheet" href="/CSS/styles.css">
-
+    <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
-
     <header class="site-header">
-        <div class="container navbar">
+      <div class="container navbar">
+        <a href="#home" class="logo"> Shop<span>Sphere</span> </a>
 
-            <a href="#" class="logo">
-                Shop<span>Sphere</span>
-            </a>
+        <nav class="navigation">
+          <a href="#home" class="active">Home</a>
+          <a href="#shop">Shop</a>
+          <a href="#categories">Categories</a>
+          <a href="#deals">Deals</a>
+          <a href="#contact">Contact</a>
+        </nav>
 
+        <div class="nav-actions">
+          <button class="icon-button" aria-label="Search">🔍</button>
 
-            <nav class="navigation">
-                <a href="#home" class="active">Home</a>
-                <a href="#shop">Shop</a>
-                <a href="#categories">Categories</a>
-                <a href="#deals">Deals</a>
-                <a href="#contact">Contact</a>
-            </nav>
-
-            <div class="nav-actions">
-                <button class="icon-button" aria-label="Search">
-                    🔍
-                </button>
-
-                <button class="cart-button" aria-label="shopping cart">
-                    🛒
-                    <span class="cart-count">0</span>
-                </button>
-            </div> 
-
+          <button class="cart-button" aria-label="Shopping cart">
+            🛒
+            <span class="cart-count">0</span>
+          </button>
         </div>
+      </div>
     </header>
 
-
     <main>
-
-        <!--Hero Section-->
-        <section id="home" class="hero">
-            <div class="container hero-content">
-
-                <div class="hero-text">
-
-                    <span class="eyebrow">
-                        NEW SEASON COLLECTION
-                    </span>
-
-                    <h1>
-                        Shop smarter.
-                        <span>Live better.</span>
-                    </h1>
-
-                    <p>
-                         Discover carefully selected products designed
-                        to make your everyday life better.
-                    </p>
-
-                    <div class="hero-actions">
-                        <a href="#" class="primary-button">
-                            Shop Now
-                        </a>
-
-                        <a href="#" class="secondary-button">
-                            Explore Collection 
-                        </a>
-                    </div>
-
-                    <button id="themeButton" class="theme-button">Try New Look</button>
-                    
-                    <div class="hero-festures">
-
-                        <div class="feature">
-                            <strong>10k+</strong>
-                            <span>products</span>
-                        </div>
-
-                        <div class="feature">
-                            <strong>4.8/5</strong>
-                            <span>Customer Rating</span>
-                        </div>
-
-                        <div class="feature">
-                            <strong>24/7</strong>
-                            <span>Support</span>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <div class="hero-image-wrapper">
-
-                    <div class="hero-image-card">
-
-                        <img src="./images/hero image.png" alt="Modern laptop and technology products">
-                    </div>
-
-
-                    <div class="floating-card">
-                        <span class="floating-icon">✓</span>
-
-                        <div>
-                            <strong>Premium Quality</strong>
-                            <small>Carefully selected</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Shop Section-->
-        <section id="shop" class="shop-section">
-
-            <div class="container">
-
-                <div class="section-heading">
-                    <span>OUR PRODUCTS</span>
-
-                    <h2>Featured Products</h2>
-
-                    <p>
-                        Discover some of our most popular products
-                    </p>
-                </div>
-
-                <div class="product-grid">
-
-                    <article class="product-card">
-
-                        <div class="product-image">
-                            <img
-                            src="./images/hero image.png" alt="Premium laptop"
-                            />
-
-                            <span class="product-badge">
-                                New
-                            </span>
-                        </div>
-
-                            <div class="product-info">
-                                <span class="product-category">
-                                    Electronics
-                                </span>
-
-                                <h3>Premium Laptop</h3>
-
-                                <div class="product-rating">
-                                     ★★★★★
-                                     <span>(124)</span>
-                                </div>
-
-                                <div class="product-bottom">
-                                    <strong>₹74,999</strong>
-
-                                    <button class="add-cart">
-                                        Add to Cart
-                                    </button>
-
-                                </div>
-                            
-                        </div>
-
-                    </article>
-
-                    <article class="product-card">
-
-                        <div class="product-image product-placeholder">
-                            🎧
-
-                            <span class="product-badge">
-                                Popular 
-                            </span>
-                        </div>
-
-                        <div class="product-info">
-
-                            <span class="product-category">
-                                Accesories
-                            </span>
-
-                            <h3>Wireless Headphones</h3>
-
-                            <div class="product-rating">
-                                ★★★★★
-                                <span>(89)</span>
-                            </div>
-
-                            <div class="product-bottom">
-                                <strong>₹3,499</strong>
-
-                                <button class="add-cart">
-                                    Add to Cart
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <article>
-
-                        <div class="product-image product-placeholder">
-                            ⌚
-
-                            <span class="product-badge">
-                                Trending
-                            </span>
-                        </div>
-
-                        <div class="product-info">
-
-                            <span class="product-category">
-                                Smart Devices
-                            </span>
-
-                            <h3>Smart Watch</h3>
-
-                            <div class="product-rating">
-                                ★★★★☆
-                                <span>(76)</span>
-                            </div>
-
-                            <div class="product-bottom">
-
-                                <strong>₹5,999</strong>
-
-                                <button class="add-cart">
-                                    Add to Cart 
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <article class="product-card">
-
-                        <div class="product-image product-placeholder">
-                         📱
-
-                         <span class="product-badge">
-                            Sale
-                         </span>
-                        </div>
-
-                        <div class="product-info">
-                            
-                            <span class="product-category">
-                                Electronics
-                            </span>
-
-                            <h3>Smartphone</h3>
-
-                            <div class="product-rating">
-                                ★★★★★
-                                <span>(210)</span>
-                            </div>
-
-                            <div class="product-bottom">
-
-                                <strong>₹29,999</strong>
-
-                                <button class="add-cart">
-                                    Add to cart 
-                                </button>
-
-                            </div>
-
-                        </div>
-                      
-                    </article>
-                </div>
-
-
-                  <div class="view-all-wrapper">
-
-                  <a href="#shop" class="view-all-button">
-                   View All Products →
-                 </a>
-
-              </div>
-
-            </div>
-        </section>
-
-        <!--Categories Section-->
-        <section id="categories" class="categories">
-            <div class="container">
-
-                <div class="section-heading">
-                    <span>EXPLORE</span>
-                    <h2>Shop by Category</h2>
-                    <p>Find everything you need in one place.</p>
-                </div>
-
-                <div class="category-grid">
-                    <article class="category-card">
-                        <div class="category-icon">💻</div>
-                        <h3>Electronics</h3>
-                        <p>Latest technology & gadgets</p>
-                    </article>
-
-                    <article class="category-card">
-                        <div class="category-icon">👕</div>
-                        <h3>Fashion</h3>
-                        <p>Style for every occasion</p>
-                    </article>
-
-                    <article class="category-card">
-                        <div class="category-icon">🏠</div>
-                        <h3>Home & Living</h3>
-                        <p>Make your space beautiful</p>
-                    </article>
-
-                    <article class="category-card">
-                        <div class="category-icon">🎧</div>
-                        <h3>Accessories</h3>
-                        <p>Complete your everyday essentials</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!--Deals Section-->
-        <section id="deals" class="deals-section">
-
-            <div class="counter">
-                <div class="deal-banner">
-
-                    <div class="deal-content">
-                        <span>LIMITED TIME OFFER</span>
-
-                        <h2>Big deals.
-                            Bigger Savings.
-                        </h2>
-
-                        <p>Get up to 40% off on selected products.
-                            Don't miss today's best deals.
-                        </p>
-
-                        <a href="#shop" class="deal-button">Shop Deals →</a>
-                    </div>
-
-                    <div class="deal-discount">
-                        <strong>40%</strong>
-                        <span>OFF</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Contact section-->  
-        <section class="contact-section" id="contact">
-
-    <div class="container contact-content">
-
-        <div class="contact-text">
-
-            <span>GET IN TOUCH</span>
-
-            <h2>
-                Have questions?
-                We're here to help.
-            </h2>
+      <!--Hero Section-->
+      <section id="home" class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <span class="eyebrow"> NEW SEASON COLLECTION </span>
+
+            <h1>
+              Shop smarter.
+              <span>Live better.</span>
+            </h1>
 
             <p>
-                Need help with an order or want to know more
-                about our products? Contact our support team.
+              Discover carefully selected products designed to make your
+              everyday life better.
             </p>
 
-        </div>
+            <div class="hero-actions">
+              <a href="#shop" class="primary-button"> Shop Now </a>
 
-
-        <form class="contact-form">
-
-            <div class="form-row">
-
-                <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Your Name"
-                    autocomplete="name"
-                >
-
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Email Address"
-                    autocomplete="email"
-                >
-
+              <a href="#categories" class="secondary-button">
+                Explore Collection
+              </a>
             </div>
 
-            <textarea
+            <button id="themeButton" class="theme-button">Try New Look</button>
+
+            <div class="hero-features">
+              <div class="feature">
+                <strong>10k+</strong>
+                <span>Products</span>
+              </div>
+
+              <div class="feature">
+                <strong>4.8/5</strong>
+                <span>Customer Rating</span>
+              </div>
+
+              <div class="feature">
+                <strong>24/7</strong>
+                <span>Support</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper">
+            <div class="hero-image-card">
+              <img
+                src="./images/hero image.png"
+                alt="Modern laptop and technology products"
+              />
+            </div>
+
+            <div class="floating-card">
+              <span class="floating-icon">✓</span>
+
+              <div>
+                <strong>Premium Quality</strong>
+                <small>Carefully selected</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Shop Section-->
+      <section id="shop" class="shop-section">
+        <div class="container">
+          <div class="section-heading">
+            <span>OUR PRODUCTS</span>
+
+            <h2>Featured Products</h2>
+
+            <p>Discover some of our most popular products</p>
+          </div>
+
+          <div class="product-grid" id="productGrid">
+            <article class="product-card">
+              <div class="product-image">
+                <img src="./images/hero image.png" alt="Premium laptop" />
+
+                <span class="product-badge"> New </span>
+              </div>
+
+              <div class="product-info">
+                <span class="product-category"> Electronics </span>
+
+                <h3>Premium Laptop</h3>
+
+                <div class="product-rating">
+                  ★★★★★
+                  <span>(124)</span>
+                </div>
+
+                <div class="product-bottom">
+                  <strong>₹74,999</strong>
+
+                  <button class="add-cart">Add to Cart</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image product-placeholder">
+                🎧
+
+                <span class="product-badge"> Popular </span>
+              </div>
+
+              <div class="product-info">
+                <span class="product-category"> Accessories </span>
+
+                <h3>Wireless Headphones</h3>
+
+                <div class="product-rating">
+                  ★★★★★
+                  <span>(89)</span>
+                </div>
+
+                <div class="product-bottom">
+                  <strong>₹3,499</strong>
+
+                  <button class="add-cart">Add to cart</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image product-placeholder">
+                ⌚
+
+                <span class="product-badge"> Trending </span>
+              </div>
+
+              <div class="product-info">
+                <span class="product-category"> Smart Devices </span>
+
+                <h3>Smart Watch</h3>
+
+                <div class="product-rating">
+                  ★★★★☆
+                  <span>(76)</span>
+                </div>
+
+                <div class="product-bottom">
+                  <strong>₹5,999</strong>
+
+                  <button class="add-cart">Add to Cart</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image product-placeholder">
+                📱
+
+                <span class="product-badge"> Sale </span>
+              </div>
+
+              <div class="product-info">
+                <span class="product-category"> Electronics </span>
+
+                <h3>Smartphone</h3>
+
+                <div class="product-rating">
+                  ★★★★★
+                  <span>(210)</span>
+                </div>
+
+                <div class="product-bottom">
+                  <strong>₹29,999</strong>
+
+                  <button class="add-cart">Add to cart</button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="view-all-wrapper">
+            <a href="#shop" class="view-all-button"> View All Products → </a>
+          </div>
+        </div>
+      </section>
+
+      <!--Categories Section-->
+      <section id="categories" class="categories">
+        <div class="container">
+          <div class="section-heading">
+            <span>EXPLORE</span>
+            <h2>Shop by Category</h2>
+            <p>Find everything you need in one place.</p>
+          </div>
+
+          <div class="category-grid">
+            <article class="category-card">
+              <div class="category-icon">💻</div>
+              <h3>Electronics</h3>
+              <p>Latest technology & gadgets</p>
+            </article>
+
+            <article class="category-card">
+              <div class="category-icon">👕</div>
+              <h3>Fashion</h3>
+              <p>Style for every occasion</p>
+            </article>
+
+            <article class="category-card">
+              <div class="category-icon">🏠</div>
+              <h3>Home & Living</h3>
+              <p>Make your space beautiful</p>
+            </article>
+
+            <article class="category-card">
+              <div class="category-icon">🎧</div>
+              <h3>Accessories</h3>
+              <p>Complete your everyday essentials</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!--Deals Section-->
+      <section id="deals" class="deals-section">
+        <div class="container">
+          <div class="deal-banner">
+            <div class="deal-content">
+              <span>LIMITED TIME OFFER</span>
+
+              <h2>Big deals. Bigger Savings.</h2>
+
+              <p>
+                Get up to 40% off on selected products. Don't miss today's best
+                deals.
+              </p>
+
+              <a href="#shop" class="deal-button">Shop Deals →</a>
+            </div>
+
+            <div class="deal-discount">
+              <strong>40%</strong>
+              <span>OFF</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Contact section-->
+      <section class="contact-section" id="contact">
+        <div class="container contact-content">
+          <div class="contact-text">
+            <span>GET IN TOUCH</span>
+
+            <h2>Have questions? We're here to help.</h2>
+
+            <p>
+              Need help with an order or want to know more about our products?
+              Contact our support team.
+            </p>
+          </div>
+
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  autocomplete="name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address"
+                  autocomplete="email"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
                 id="message"
                 name="message"
                 rows="5"
                 placeholder="How can we help you?"
-            ></textarea>
+              ></textarea>
+            </div>
 
-            <button type="submit">
-                Send Message
-            </button>
-
-        </form>
-
-    </div>
-
-</section>
-        
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!--Footer Section-->
     <footer class="site-footer">
-        <div class="container">
-            <p>@ 2026 ShopSphere. All rights reserved.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2026 ShopSphere. All rights reserved.</p>
+      </div>
     </footer>
 
-    <script src="/Script/script.js"></script>
-    
+    <script src="./Script/script.js"></script>
+
+    <script src="./Script/api.js"></script>
   </body>
 </html>
