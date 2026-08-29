@@ -11,9 +11,7 @@ let visibleCount = 12;
 let cartCount = 0;
 
 
-/* =========================================================
-   FETCH PRODUCTS
-========================================================= */
+/* FETCH PRODUCTS */
 
 async function fetchProducts() {
     try {
@@ -49,9 +47,7 @@ async function fetchProducts() {
 }
 
 
-/* =========================================================
-   LOADING STATE
-========================================================= */
+/* LOADING STATE */
 
 function showLoadingState() {
 
@@ -68,9 +64,7 @@ function showLoadingState() {
 }
 
 
-/* =========================================================
-   ERROR STATE
-========================================================= */
+/* ERROR STATE */
 
 function showErrorState() {
 
@@ -96,9 +90,7 @@ function showErrorState() {
 }
 
 
-/* =========================================================
-   CATEGORY FILTERS
-========================================================= */
+/* CATEGORY FILTERS */
 
 function createCategoryFilters() {
 
@@ -172,9 +164,7 @@ function createCategoryFilters() {
 }
 
 
-/* =========================================================
-   CATEGORY NAME FORMATTER
-========================================================= */
+/* CATEGORY NAME FORMATTER */
 
 function formatCategoryName(category) {
 
@@ -184,9 +174,7 @@ function formatCategoryName(category) {
 }
 
 
-/* =========================================================
-   RENDER PRODUCTS
-========================================================= */
+/* RENDER PRODUCTS */
 
 function renderProducts() {
 
@@ -217,7 +205,7 @@ function renderProducts() {
         const productCard =
             document.createElement("article");
 
-        productCard.className = "product-card";
+      productCard.className = "product-card card h-100 col-12 col-md-6 col-lg-3";
 
 
         const rating =
@@ -257,7 +245,7 @@ function renderProducts() {
             </div>
 
 
-            <div class="product-info">
+            <div class="product-info card-body">
 
                 <span class="product-category">
                     ${escapeHTML(
@@ -289,7 +277,7 @@ function renderProducts() {
                     </strong>
 
                     <button
-                        class="add-cart"
+                        class="add-cart btn"
                         data-product-id="${product.id}"
                     >
                         Add to Cart
@@ -311,9 +299,7 @@ function renderProducts() {
 }
 
 
-/* =========================================================
-   LOAD MORE
-========================================================= */
+/* LOAD MORE */
 
 function updateLoadMoreButton() {
 
@@ -349,9 +335,7 @@ if (viewAllButton) {
 }
 
 
-/* =========================================================
-   CART
-========================================================= */
+/* CART */
 
 function attachCartEvents() {
 
@@ -393,9 +377,7 @@ function attachCartEvents() {
 }
 
 
-/* =========================================================
-   CART COUNT
-========================================================= */
+/* CART COUNT */
 
 function updateCartCount() {
 
@@ -410,9 +392,7 @@ function updateCartCount() {
 }
 
 
-/* =========================================================
-   BASIC HTML ESCAPE
-========================================================= */
+/* BASIC HTML ESCAPE */
 
 function escapeHTML(value) {
 
@@ -424,8 +404,6 @@ function escapeHTML(value) {
 }
 
 
-/* =========================================================
-   START APPLICATION
-========================================================= */
+/* START APPLICATION */
 
 fetchProducts();

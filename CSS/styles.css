@@ -1,12 +1,7 @@
-/* =========================================================
-   SHOPSPHERE
-   PROFESSIONAL RESPONSIVE E-COMMERCE STYLES
-   ========================================================= */
+/* SHOPSPHERE PROFESSIONAL RESPONSIVE E-COMMERCE STYLES */
 
 
-/* =========================================================
-   1. RESET & GLOBAL
-   ========================================================= */
+/* RESET & GLOBAL */
 
 * {
     margin: 0;
@@ -56,9 +51,7 @@ a {
 }
 
 
-/* =========================================================
-   2. GLOBAL CONTAINER
-   ========================================================= */
+/* GLOBAL CONTAINER */
 
 .container {
     width: min(92%, 1180px);
@@ -66,9 +59,7 @@ a {
 }
 
 
-/* =========================================================
-   3. HEADER / NAVBAR
-   ========================================================= */
+/* HEADER / NAVBAR */
 
 .site-header {
     position: sticky;
@@ -82,7 +73,7 @@ a {
     backdrop-filter: blur(12px);
 }
 
-.navbar {
+.shopsphere-navbar {
     min-height: 76px;
 
     display: flex;
@@ -219,9 +210,7 @@ a {
 }
 
 
-/* =========================================================
-   4. HERO
-   ========================================================= */
+/* HERO */
 
 .hero {
     background: #f7f7f5;
@@ -409,9 +398,7 @@ a {
 }
 
 
-/* =========================================================
-   5. HERO IMAGE
-   ========================================================= */
+/* HERO IMAGE */
 
 .hero-image-wrapper {
     position: relative;
@@ -506,9 +493,7 @@ a {
 }
 
 
-/* =========================================================
-   6. COMMON SECTION HEADING
-   ========================================================= */
+/* COMMON SECTION HEADING */
 
 .section-heading {
     margin-bottom: 45px;
@@ -542,9 +527,7 @@ a {
 }
 
 
-/* =========================================================
-   7. SHOP / PRODUCTS
-   ========================================================= */
+/* SHOP / PRODUCTS */
 
 .shop-section {
     padding: 100px 0;
@@ -775,9 +758,7 @@ a {
 }
 
 
-/* =========================================================
-   8. CATEGORIES
-   ========================================================= */
+/* CATEGORIES */
 
 .categories {
     padding: 100px 0;
@@ -846,9 +827,7 @@ a {
 }
 
 
-/* =========================================================
-   9. DEALS
-   ========================================================= */
+/* DEALS */
 
 .deals-section {
     padding: 75px 0;
@@ -962,9 +941,7 @@ a {
 }
 
 
-/* =========================================================
-   10. CONTACT
-   ========================================================= */
+/* CONTACT */
 
 .contact-section {
     padding: 100px 0;
@@ -1116,9 +1093,7 @@ a {
 }
 
 
-/* =========================================================
-   11. TASK 4 - THEME
-   ========================================================= */
+/* TASK 4 - THEME */
 
 body.alternate-theme {
     background: #fff3eb;
@@ -1141,9 +1116,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================================================
-   12. FOOTER
-   ========================================================= */
+/* FOOTER */
 
 .site-footer {
     padding: 25px 0;
@@ -1157,10 +1130,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================================================
-   13. LARGE TABLET
-   <= 1100px
-   ========================================================= */
+/* LARGE TABLET <= 1100px */
 
 @media (max-width: 1100px) {
 
@@ -1188,14 +1158,11 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================================================
-   14. TABLET
-   <= 900px
-   ========================================================= */
+/* TABLET <= 900px */
 
 @media (max-width: 900px) {
 
-    .navbar {
+    .shopsphere-navbar {
         min-height: 70px;
     }
 
@@ -1296,10 +1263,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================================================
-   15. MOBILE
-   <= 600px
-   ========================================================= */
+/* MOBILE <= 600px */
 
 @media (max-width: 600px) {
 
@@ -1310,7 +1274,7 @@ body.alternate-theme .contact-section {
 
     /* Navbar */
 
-    .navbar {
+    .shopsphere-navbar {
         min-height: 64px;
 
         gap: 10px;
@@ -1593,10 +1557,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================================================
-   16. SMALL MOBILE
-   <= 400px
-   ========================================================= */
+/* SMALL MOBILE <= 400px */
 
 @media (max-width: 400px) {
 
@@ -1666,10 +1627,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================================================
-   17. EXTRA SMALL MOBILE
-   <= 360px
-   ========================================================= */
+/* EXTRA SMALL MOBILE <= 360px */
 
 @media (max-width: 360px) {
 
@@ -1701,9 +1659,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================================================
-   HERO IMAGE - FINAL RESPONSIVE FIX
-   ========================================================= */
+/* HERO IMAGE - FINAL RESPONSIVE FIX */
 
 .hero-image-wrapper {
     position: relative;
@@ -1750,9 +1706,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================
-   TABLET
-========================= */
+/* TABLET */
 
 @media (max-width: 900px) {
 
@@ -1784,9 +1738,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================
-   MOBILE
-========================= */
+/* MOBILE */
 
 @media (max-width: 600px) {
 
@@ -1824,9 +1776,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================================================
-   PRODUCT API IMAGES - RESPONSIVE
-   ========================================================= */
+/* PRODUCT API IMAGES - RESPONSIVE */
 
 .product-image {
     position: relative;
@@ -1884,9 +1834,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================================================
-   TASK 5 - API PRODUCT UI
-========================================================= */
+/* TASK 5 - API PRODUCT UI */
 
 
 /* Category filters */
@@ -2087,9 +2035,7 @@ body.alternate-theme .contact-section {
 
 
 
-/* =========================================================
-   TASK 5 - FINAL RESPONSIVE OVERRIDE
-   ========================================================= */
+/* TASK 5 - FINAL RESPONSIVE OVERRIDE */
 
 .product-grid {
     width: 100%;
@@ -2139,9 +2085,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================================================
-   CATEGORY FILTERS
-   ========================================================= */
+/* CATEGORY FILTERS */
 
 .category-filters {
     width: 100%;
@@ -2166,7 +2110,7 @@ body.alternate-theme .contact-section {
     padding: 9px 15px;
 
     border: 1px solid #dddddd;
-    border-radius: 999px;
+   border-radius: 999px;
 
     background: #ffffff;
     color: #555555;
@@ -2176,9 +2120,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================================================
-   TABLET
-   ========================================================= */
+/* TABLET */
 
 @media (max-width: 900px) {
 
@@ -2217,9 +2159,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================================================
-   MOBILE
-   ========================================================= */
+/* MOBILE */
 
 @media (max-width: 600px) {
 
@@ -2293,9 +2233,7 @@ body.alternate-theme .contact-section {
 }
 
 
-/* =========================================================
-   VERY SMALL MOBILE
-   ========================================================= */
+/* VERY SMALL MOBILE */
 
 @media (max-width: 400px) {
 
@@ -2319,4 +2257,19 @@ body.alternate-theme .contact-section {
         padding: 8px 10px;
         font-size: 10px;
     }
+}
+
+/* BOOTSTRAP PRODUCT GRID COMPATIBILITY */
+
+#productGrid {
+    width: 100%;
+}
+
+#productGrid .product-card {
+    min-width: 0;
+    max-width: 100%;
+}
+
+#productGrid .card-body {
+    min-width: 0;
 }
